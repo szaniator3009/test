@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "ignoreChanges": [
+        "**/CHANGELOG.md",
+        "**/node_modules/**",
+        "**/*.md"
+      ],
+      "yes": true
+    }
+  },
+  "version": "1.3.3"
+}
